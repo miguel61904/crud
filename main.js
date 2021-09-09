@@ -14,8 +14,6 @@ let lista = [
   }
 ];
 
-let total = document.getElementById()
-
 let updateFlag = false;
 let updateIndex = null;
 
