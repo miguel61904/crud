@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Praline</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+    <div class= "container">
+        <form action="" id="addped">
+            <select name="" id="pedido" >
+                <option value="ped1">Pedido</option>
+                <option value="Escarlata con agua">Escarlata con agua</option>
+                <option value="Escarlata con cerveza">Escarlata con cerveza</option>
+                <option value="Tropocal con agua">Tropocal con agua</option>
+                <option value="Tropical con cerveza">Tropical con cerveza</option>
+            </select>
+            <br>
+            <input type="number" placeholder="Cantidad" id="cantidad" >
+            <br>
+            <input type="text" placeholder="Dirección" id="direccion">
+            <br>
+            <input type="text" placeholder="Barrio" id="barrio" >
+            <br>
+            <input type="text" placeholder="Nombre Cliente" id="nombreC" >
+            <br>
+            <input type="number" placeholder="Celular" id="celular">
+            <br>
+            <input type="text" placeholder="Quien recibe" >
+            <br>
+            <input type="text" placeholder="Valor domicilio" id="valordomi">
+            <br>
+            <input type="number" placeholder="valoruni" id="valor">
+            <select name="" id="mpago" >
+                <option value="N/A">Medio de pago</option>
+                <option value="Bancolombia">Bancolombia</option>
+                <option value="Nequi">Nequi</option>
+                <option value="Daviplata">Daviplata</option>
+                <option value="Efectivo">Efectivo</option>
+            </select>
+            <br>
+            <select name="" id="domi" >
+                <option value="N/A">No asicnado</option>
+                <option value="Cristina">Cristian</option>
+                <option value="Camilo">Camilo</option>
+                <option value="Simon">Simon</option>
+            </select>
+            <br>
+            <select name="" id="cana de atencion" required>
+                <option value="canal">Canal de atención</option>
+                <option value="cana2">Instagram</option>
+                <option value="cana3">Whatsapp</option>
+            </select>
+            <br>
+            <textarea name="" id="text" cols="30" rows="10" placeholder="Descripción"></textarea>
+            <br>
+            <button type="submit" class="subbtn" id="subbtn">Guardar</button>
+        </form>
+        <div>
+            <label for="" id="label">Total = </label>
+        </div>
+    </div>
+    <div class="crud" id="crud">
+
+    </div>
+    <script src="./main.js">
+    </script>
+</body>
+</html>
